@@ -44,6 +44,7 @@
         <members>Product2</members>
         <members>Quote</members>
         <members>QuoteLineItem</members>
+        <members>Ship_To_Location__c</members>
         <members>Site</members>
         <members>Solution</members>
         <members>Task</members>
