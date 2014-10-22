@@ -18,7 +18,56 @@
             "directoryName": "classes", 
             "metaFile": true
         }, 
-        "children": [], 
+        "children": [
+            {
+                "leaf": true, 
+                "title": "TriggerFactory", 
+                "checked": false, 
+                "id": "ApexClass.TriggerFactory", 
+                "text": "TriggerFactory", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
+                "title": "TriggerFactoryHandlerBase", 
+                "checked": false, 
+                "id": "ApexClass.TriggerFactoryHandlerBase", 
+                "text": "TriggerFactoryHandlerBase", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
+                "title": "TriggerFactoryHandlerBaseTest", 
+                "checked": false, 
+                "id": "ApexClass.TriggerFactoryHandlerBaseTest", 
+                "text": "TriggerFactoryHandlerBaseTest", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
+                "title": "UnitTestHelper", 
+                "checked": false, 
+                "id": "ApexClass.UnitTestHelper", 
+                "text": "UnitTestHelper", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }
+        ], 
         "select": false, 
         "cls": "folder"
     }, 
@@ -163,10 +212,130 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "Bill_To_Site_Use_Id__c", 
+                                "title": "Bill_To_Site_Use_Id__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Bill_To_Site_Use_Id__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Collector__c", 
+                                "title": "Collector__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Collector__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Customer_Key__c", 
+                                "title": "Customer_Key__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Customer_Key__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Factor__c", 
+                                "title": "Factor__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Factor__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Freight_Pay_Terms__c", 
+                                "title": "Freight_Pay_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Freight_Pay_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Inco_Terms__c", 
+                                "title": "Inco_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Inco_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "Industry", 
                                 "title": "Industry", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Account.fields.Industry", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Inside_Sales_Notes__c", 
+                                "title": "Inside_Sales_Notes__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Inside_Sales_Notes__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Is_National_Account_Rep__c", 
+                                "title": "Is_National_Account_Rep__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Is_National_Account_Rep__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Location_Id__c", 
+                                "title": "Location_Id__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Location_Id__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Marketing_Notes__c", 
+                                "title": "Marketing_Notes__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Marketing_Notes__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "National_Account_Rep__c", 
+                                "title": "National_Account_Rep__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.National_Account_Rep__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Outside_Sales_Notes__c", 
+                                "title": "Outside_Sales_Notes__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Outside_Sales_Notes__c", 
                                 "select": false
                             }, 
                             {
@@ -203,6 +372,36 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "Party_Id__c", 
+                                "title": "Party_Id__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Party_Id__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Party_Number__c", 
+                                "title": "Party_Number__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Party_Number__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Payment_Terms__c", 
+                                "title": "Payment_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Payment_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "Rating", 
                                 "title": "Rating", 
                                 "isFolder": false, 
@@ -213,10 +412,70 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "Site_Visit_Notes__c", 
+                                "title": "Site_Visit_Notes__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Site_Visit_Notes__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Store_Id__c", 
+                                "title": "Store_Id__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Store_Id__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Tier__c", 
+                                "title": "Tier__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Tier__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Total_Days_Past_Due__c", 
+                                "title": "Total_Days_Past_Due__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Total_Days_Past_Due__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Total_Past_Due_Amount__c", 
+                                "title": "Total_Past_Due_Amount__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.Total_Past_Due_Amount__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "Type", 
                                 "title": "Type", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Account.fields.Type", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "of_Invoices_Past_Due__c", 
+                                "title": "of_Invoices_Past_Due__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.fields.of_Invoices_Past_Due__c", 
                                 "select": false
                             }
                         ], 
@@ -255,10 +514,92 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "My_National_Accounts", 
+                                "title": "My_National_Accounts", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.listViews.My_National_Accounts", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "NewThisWeek", 
                                 "title": "NewThisWeek", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Account.listViews.NewThisWeek", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Tier_1", 
+                                "title": "Tier_1", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.listViews.Tier_1", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Tier_2", 
+                                "title": "Tier_2", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.listViews.Tier_2", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Tier_3", 
+                                "title": "Tier_3", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.listViews.Tier_3", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }, 
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Account.recordTypes", 
+                        "text": "recordTypes", 
+                        "title": "recordTypes", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Bill_To", 
+                                "title": "Bill_To", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.recordTypes.Bill_To", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Party", 
+                                "title": "Party", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.recordTypes.Party", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Ship_To", 
+                                "title": "Ship_To", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Account.recordTypes.Ship_To", 
                                 "select": false
                             }
                         ], 
@@ -1015,6 +1356,26 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "Birthdate_Month_Year__c", 
+                                "title": "Birthdate_Month_Year__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Contact.fields.Birthdate_Month_Year__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Hobbies__c", 
+                                "title": "Hobbies__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Contact.fields.Hobbies__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "Key_Influencer__c", 
                                 "title": "Key_Influencer__c", 
                                 "isFolder": false, 
@@ -1039,6 +1400,16 @@
                                 "title": "OwnerId", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Contact.fields.OwnerId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Professional_Football_Team__c", 
+                                "title": "Professional_Football_Team__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Contact.fields.Professional_Football_Team__c", 
                                 "select": false
                             }, 
                             {
@@ -1844,6 +2215,46 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "Dollar_Estimate_High__c", 
+                                "title": "Dollar_Estimate_High__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.fields.Dollar_Estimate_High__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Low__c", 
+                                "title": "Dollar_Estimate_Low__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.fields.Dollar_Estimate_Low__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Medium__c", 
+                                "title": "Dollar_Estimate_Medium__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.fields.Dollar_Estimate_Medium__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Factor__c", 
+                                "title": "Factor__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.fields.Factor__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "LeadSource", 
                                 "title": "LeadSource", 
                                 "isFolder": false, 
@@ -1868,6 +2279,16 @@
                                 "title": "StageName", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Opportunity.fields.StageName", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "SyncedQuoteId", 
+                                "title": "SyncedQuoteId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.fields.SyncedQuoteId", 
                                 "select": false
                             }, 
                             {
@@ -1950,6 +2371,68 @@
                                 "title": "Won", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Opportunity.listViews.Won", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }, 
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Opportunity.validationRules", 
+                        "text": "validationRules", 
+                        "title": "validationRules", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_High_Less_Than_Zero", 
+                                "title": "Dollar_Estimate_High_Less_Than_Zero", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.validationRules.Dollar_Estimate_High_Less_Than_Zero", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Low_Less_Med_and_High", 
+                                "title": "Dollar_Estimate_Low_Less_Med_and_High", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.validationRules.Dollar_Estimate_Low_Less_Med_and_High", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Low_Less_Than_Zero", 
+                                "title": "Dollar_Estimate_Low_Less_Than_Zero", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.validationRules.Dollar_Estimate_Low_Less_Than_Zero", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Med_Less_Than_Zero", 
+                                "title": "Dollar_Estimate_Med_Less_Than_Zero", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.validationRules.Dollar_Estimate_Med_Less_Than_Zero", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Dollar_Estimate_Med_More_High", 
+                                "title": "Dollar_Estimate_Med_More_High", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Opportunity.validationRules.Dollar_Estimate_Med_More_High", 
                                 "select": false
                             }
                         ], 
@@ -2047,6 +2530,16 @@
                         "title": "fields", 
                         "isFolder": true, 
                         "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Factor__c", 
+                                "title": "Factor__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.OpportunityLineItem.fields.Factor__c", 
+                                "select": false
+                            }, 
                             {
                                 "leaf": true, 
                                 "checked": false, 
@@ -2176,20 +2669,30 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
-                                "text": "ShipToContactId", 
-                                "title": "ShipToContactId", 
+                                "text": "OwnerId", 
+                                "title": "OwnerId", 
                                 "isFolder": false, 
-                                "id": "CustomObject.Order.fields.ShipToContactId", 
+                                "id": "CustomObject.Order.fields.OwnerId", 
                                 "select": false
                             }, 
                             {
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
-                                "text": "Status", 
-                                "title": "Status", 
+                                "text": "QuoteId", 
+                                "title": "QuoteId", 
                                 "isFolder": false, 
-                                "id": "CustomObject.Order.fields.Status", 
+                                "id": "CustomObject.Order.fields.QuoteId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "ShipToContactId", 
+                                "title": "ShipToContactId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Order.fields.ShipToContactId", 
                                 "select": false
                             }, 
                             {
@@ -2297,6 +2800,16 @@
                                 "title": "Product2Id", 
                                 "isFolder": false, 
                                 "id": "CustomObject.OrderItem.fields.Product2Id", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "QuoteLineItemId", 
+                                "title": "QuoteLineItemId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.OrderItem.fields.QuoteLineItemId", 
                                 "select": false
                             }
                         ], 
@@ -2420,6 +2933,16 @@
                                 "leaf": true, 
                                 "checked": false, 
                                 "level": 4, 
+                                "text": "EXID__c", 
+                                "title": "EXID__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Product2.fields.EXID__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
                                 "text": "Family", 
                                 "title": "Family", 
                                 "isFolder": false, 
@@ -2446,6 +2969,216 @@
                                 "title": "AllProducts", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Product2.listViews.AllProducts", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Material_Lifts_GL", 
+                                "title": "Material_Lifts_GL", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Product2.listViews.Material_Lifts_GL", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }
+                ], 
+                "select": false, 
+                "cls": "folder"
+            }, 
+            {
+                "leaf": false, 
+                "title": "Quote", 
+                "checked": false, 
+                "id": "CustomObject.Quote", 
+                "text": "Quote", 
+                "level": 2, 
+                "isFolder": true, 
+                "children": [
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Quote.fields", 
+                        "text": "fields", 
+                        "title": "fields", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "AccountId", 
+                                "title": "AccountId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.AccountId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Account_Number__c", 
+                                "title": "Account_Number__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Account_Number__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Additional_Charges__c", 
+                                "title": "Additional_Charges__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Additional_Charges__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "ContactId", 
+                                "title": "ContactId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.ContactId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "ContractId", 
+                                "title": "ContractId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.ContractId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Created_By_Phone__c", 
+                                "title": "Created_By_Phone__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Created_By_Phone__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Customer_PO_No__c", 
+                                "title": "Customer_PO_No__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Customer_PO_No__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Freight_Pay_Terms__c", 
+                                "title": "Freight_Pay_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Freight_Pay_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Inco_Terms__c", 
+                                "title": "Inco_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Inco_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "OpportunityId", 
+                                "title": "OpportunityId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.OpportunityId", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Payment_Terms__c", 
+                                "title": "Payment_Terms__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Payment_Terms__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Status", 
+                                "title": "Status", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.Status", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "TFS_Financed__c", 
+                                "title": "TFS_Financed__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Quote.fields.TFS_Financed__c", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }
+                ], 
+                "select": false, 
+                "cls": "folder"
+            }, 
+            {
+                "leaf": false, 
+                "title": "QuoteLineItem", 
+                "checked": false, 
+                "id": "CustomObject.QuoteLineItem", 
+                "text": "QuoteLineItem", 
+                "level": 2, 
+                "isFolder": true, 
+                "children": [
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.QuoteLineItem.fields", 
+                        "text": "fields", 
+                        "title": "fields", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Product2Id", 
+                                "title": "Product2Id", 
+                                "isFolder": false, 
+                                "id": "CustomObject.QuoteLineItem.fields.Product2Id", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "QuoteId", 
+                                "title": "QuoteId", 
+                                "isFolder": false, 
+                                "id": "CustomObject.QuoteLineItem.fields.QuoteId", 
                                 "select": false
                             }
                         ], 
