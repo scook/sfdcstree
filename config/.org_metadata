@@ -3245,6 +3245,16 @@
                                 "isFolder": false, 
                                 "id": "CustomObject.Ship_To_Location__c.fields.Shipping_Address_3__c", 
                                 "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Shipping_City__c", 
+                                "title": "Shipping_City__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Ship_To_Location__c.fields.Shipping_City__c", 
+                                "select": false
                             }
                         ], 
                         "select": false, 
