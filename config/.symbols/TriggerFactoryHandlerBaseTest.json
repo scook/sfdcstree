@@ -1,0 +1,105 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "TriggerFactoryHandlerBaseTest", 
+    "tableDeclaration": {
+        "type": "TriggerFactoryHandlerBaseTest", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "TriggerFactoryHandlerBaseTest"
+    }, 
+    "key": "01po0000002n6fZAAQ", 
+    "variables": [
+        {
+            "type": "TriggerFactoryHandlerBase", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 31, 
+                "line": 5
+            }, 
+            "name": "objTFHB"
+        }, 
+        {
+            "type": "TriggerFactoryHandlerBase", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 31, 
+                "line": 24
+            }, 
+            "name": "objTFHB"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 13, 
+                "line": 47
+            }, 
+            "name": "testvar"
+        }
+    ], 
+    "id": "01po0000002n6fZAAQ", 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "TriggerFactoryHandlerBase_Test", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "TriggerFactoryHandlerBase_TestStaticMethods", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 8
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "TriggerFactoryHandlerBase_TestAllMethods", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 23
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "username": "steve.cook@slalom.com.terexawp", 
+    "environment": "production", 
+    "project_name": "Genie - Prod", 
+    "workspace": "C:\\mavensmate\\workspace", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "UA7EXLBA5UT9O1H50DZIE7GI2PD2QVUA", 
+    "metadata_container": "1dco0000000AL3wAAG", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}

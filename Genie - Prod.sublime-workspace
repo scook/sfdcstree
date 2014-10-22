@@ -1,0 +1,1037 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pr",
+				"Previous_12_Months__c"
+			],
+			[
+				"Exped",
+				"Expedia_Issue__c"
+			],
+			[
+				"cs",
+				"csat"
+			],
+			[
+				"k",
+				"csatKeys"
+			],
+			[
+				"Trip",
+				"Trip_ID__c"
+			],
+			[
+				"testaccts",
+				"testaccts"
+			],
+			[
+				"Expedia",
+				"Expedia_Hotel_Id__c"
+			],
+			[
+				"prior",
+				"priorityInt"
+			],
+			[
+				"Pre",
+				"Previous_3_Months_Average__c"
+			],
+			[
+				"prio",
+				"priorityNumber"
+			],
+			[
+				"Pri",
+				"priorityNumber"
+			],
+			[
+				"from",
+				"fromAddress"
+			],
+			[
+				"new",
+				"newCsat"
+			],
+			[
+				"Vip",
+				"VIP_Access_CSAT_Score__c"
+			],
+			[
+				"st",
+				"PUBLIC stopTest() 	void"
+			],
+			[
+				"ar",
+				"Archived__c"
+			],
+			[
+				"ass",
+				"assertEquals()"
+			],
+			[
+				"ex",
+				"existingCSATs"
+			],
+			[
+				"newC",
+				"newCSATs"
+			],
+			[
+				"VIP_Acc",
+				"VIP_Access_CSAT_Score__c"
+			],
+			[
+				"to",
+				"PUBLIC toStartOfMonth() 	Date"
+			],
+			[
+				"Orig",
+				"OriginalReservation"
+			],
+			[
+				"Ext",
+				"Extension_Reservation__c 	Lookup"
+			],
+			[
+				"f",
+				"PUBLIC FindById(Id departureId) 	Departure__c"
+			],
+			[
+				"Depar",
+				"DepartureHelper	[Custom Apex Class]"
+			],
+			[
+				"Dep",
+				"Departure__c	[Sobject Name]"
+			],
+			[
+				"orginal",
+				"originalReservation"
+			],
+			[
+				"orig",
+				"originalReservation"
+			],
+			[
+				"ori",
+				"originalReservation"
+			],
+			[
+				"esca",
+				"PUBLIC escapeSingleQuotes(String s) 	String"
+			],
+			[
+				"sta",
+				"startDate"
+			],
+			[
+				"action",
+				"apex:actionRegion"
+			],
+			[
+				"so",
+				"soql"
+			],
+			[
+				"Find",
+				"PUBLIC FindById(Id departureId) 	Departure__c"
+			],
+			[
+				"Depa",
+				"DepartureHelper	[Custom Apex Class]"
+			],
+			[
+				"Status",
+				"STATUS_CONFIRMED"
+			],
+			[
+				"confirm",
+				"confirmedReservations"
+			],
+			[
+				"stat",
+				"STATUS_HOLD"
+			],
+			[
+				"STAT",
+				"STATUS_CONFIRMED"
+			],
+			[
+				"Con",
+				"Confirmed"
+			],
+			[
+				"Sta",
+				"STATUS_HOLD"
+			],
+			[
+				"o",
+				"originalReservation"
+			],
+			[
+				"lin",
+				"lineItemsToUpsert"
+			],
+			[
+				"tran",
+				"transferFees"
+			],
+			[
+				"tra",
+				"transferFees"
+			],
+			[
+				"Fin",
+				"PUBLIC FindAllActiveTransferFeesByDepartureId(Id departureId) 	LIST"
+			],
+			[
+				"pag",
+				"apex:pageBlockTable"
+			],
+			[
+				"get",
+				"PUBLIC getMessage() 	String"
+			],
+			[
+				"c",
+				"Category__c 	Text"
+			],
+			[
+				"Reserv",
+				"Reservation_Line_Item__c	[Sobject Name]"
+			],
+			[
+				"page",
+				"apex:pageBlockButtons"
+			],
+			[
+				"ou",
+				"apex:outputField"
+			],
+			[
+				"pageBlock",
+				"apex:pageBlockButtons"
+			],
+			[
+				"pageBl",
+				"apex:pageBlockTable"
+			],
+			[
+				"cance",
+				"cancellationFees"
+			],
+			[
+				"fee",
+				"Fees_Services__c"
+			],
+			[
+				"ReservationLin",
+				"ReservationLineItemHelper	[Custom Apex Class]"
+			],
+			[
+				"Reser",
+				"Reservation_Line_Item__c	[Sobject Name]"
+			],
+			[
+				"canc",
+				"cancellationFees"
+			],
+			[
+				"Fees",
+				"Fees_Services__c	[Sobject Name]"
+			],
+			[
+				"fi",
+				"PUBLIC FindById(Id reservationId) 	Reservation__c"
+			],
+			[
+				"De",
+				"DepartureTripLeaderReportPDF	[Visualforce Page]"
+			],
+			[
+				"s",
+				"styleClass	(String)"
+			],
+			[
+				"run",
+				"runasUser"
+			],
+			[
+				"sho",
+				"showHeader	(Boolean)"
+			],
+			[
+				"a",
+				"applyBodyTag	(Boolean)"
+			],
+			[
+				"re",
+				"required	(Boolean)"
+			],
+			[
+				"Depart",
+				"DepartureHelper	[Custom Apex Class]"
+			],
+			[
+				"newD",
+				"newDepartureTemplate"
+			],
+			[
+				"Extension",
+				"Extension_Departure__c 	Lookup"
+			],
+			[
+				"Cont",
+				"Contact__c"
+			],
+			[
+				"Re",
+				"Reservation__c	[Sobject Name]"
+			],
+			[
+				"old",
+				"oldInvoice"
+			],
+			[
+				"In",
+				"PUBLIC InvoicesForTest(String name, Integer count, LIST contacts) 	LIST"
+			],
+			[
+				"dep",
+				"departureIds"
+			],
+			[
+				"depa",
+				"departures"
+			],
+			[
+				"Fee",
+				"PUBLIC FeesServicesForTest(String name, Integer count, String recordType, String category, String type, String mandatory, String timeBased, LIST departures) 	LIST"
+			],
+			[
+				"Rooming",
+				"Rooming_Preference__c 	Picklist"
+			],
+			[
+				"pageBlo",
+				"apex:pageBlockTable"
+			],
+			[
+				"Final",
+				"PUBLIC FindAllAdditionalServicesByReservationIds(Set reservationIds) 	LIST"
+			],
+			[
+				"ReservationL",
+				"ReservationLineItemHelper	[Custom Apex Class]"
+			],
+			[
+				"add",
+				"additionServices"
+			],
+			[
+				"rep",
+				"PUBLIC replace(String target, String replacement) 	String"
+			],
+			[
+				"arr",
+				"arrivalInfo"
+			],
+			[
+				"in",
+				"invoice"
+			],
+			[
+				"col",
+				"columnsWidth	(String)"
+			],
+			[
+				"Tot",
+				"Total_Cost__c 	Summary"
+			],
+			[
+				"nu",
+				"numberOfConfirmed"
+			],
+			[
+				"reser",
+				"reservationsOnInvoice"
+			],
+			[
+				"avail",
+				"availableBalance"
+			],
+			[
+				"oldR",
+				"oldReservationId"
+			],
+			[
+				"amount",
+				"amountToTransfer"
+			],
+			[
+				"trans",
+				"transferred"
+			],
+			[
+				"tr",
+				"transferred"
+			],
+			[
+				"am",
+				"amountToDebit"
+			],
+			[
+				"amountTo",
+				"amountToCredit"
+			],
+			[
+				"amo",
+				"amountToTransfer"
+			],
+			[
+				"pr",
+				"Price__c 	Summary"
+			],
+			[
+				"or",
+				"originalInvoice"
+			],
+			[
+				"is",
+				"PUBLIC isBlank(String str) 	Boolean"
+			],
+			[
+				"oldRe",
+				"oldReservation"
+			],
+			[
+				"Active",
+				"Active__c"
+			],
+			[
+				"Res",
+				"PUBLIC ReservationsWithOneDepartureForTest(String name, Integer count, LIST contacts, Departure__c departure, String status) 	LIST"
+			],
+			[
+				"line",
+				"lineItemsToUpsert"
+			],
+			[
+				"transfe",
+				"transferFees"
+			],
+			[
+				"rec",
+				"RecordTypeId"
+			],
+			[
+				"res",
+				"reservationIds"
+			],
+			[
+				"cancell",
+				"cancelledReservations"
+			],
+			[
+				"pro",
+				"PRIVATE ProcessCancelledReservations(LIST reservations, Set departureIds) 	void"
+			],
+			[
+				"depar",
+				"departureIds"
+			],
+			[
+				"data",
+				"apex:dataTable"
+			],
+			[
+				"Ar",
+				"Arrival_Notes__c 	TextArea"
+			],
+			[
+				"de",
+				"departureInfo"
+			],
+			[
+				"room",
+				"roomingList"
+			],
+			[
+				"pass",
+				"passportContacts"
+			],
+			[
+				"output",
+				"apex:outputText"
+			],
+			[
+				"pageblo",
+				"apex:pageBlock"
+			],
+			[
+				"all",
+				"allReservatins"
+			],
+			[
+				"fin",
+				"PUBLIC FindAllByDepartureIds(Set departureIds) 	LIST"
+			],
+			[
+				"Inv",
+				"Invoice__c	[Sobject Name]"
+			],
+			[
+				"pageBlockS",
+				"apex:pageBlockSectionItem"
+			],
+			[
+				"pa",
+				"apex:pageBlockSection"
+			],
+			[
+				"Invoi",
+				"InvoiceHelper	[Custom Apex Class]"
+			],
+			[
+				"reservap",
+				"reservationRecordTypesMap"
+			],
+			[
+				"recordTypes",
+				"reservationRecordTypesMap"
+			],
+			[
+				"Rec",
+				"RecordType"
+			],
+			[
+				"To",
+				"Total_Payment_Amount__c 	Summary"
+			],
+			[
+				"F",
+				"PUBLIC FindAllByInvoiceIds(Set invoiceIds) 	LIST"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/classes/TriggerFactoryHandlerBase.cls",
+			"settings":
+			{
+				"buffer_size": 3404,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/classes/TriggerFactoryHandlerBaseTest.cls",
+			"settings":
+			{
+				"buffer_size": 2000,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/classes/TriggerFactory.cls",
+			"settings":
+			{
+				"buffer_size": 3742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/classes/UnitTestHelper.cls",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/mavensmate/workspace/Genie - Prod/src/classes/TriggerFactoryBase.cls",
+		"/C/mavensmate/workspace/Expedia - Loyalty/src/classes/VIPAccessCSATScoreHelper.cls",
+		"/C/mavensmate/workspace/Expedia - Loyalty/src/classes/VIPAccessCSATScore_TriggerHandler_Test.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/UnitTestHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/DepartureTripLeaderReportExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/FeesServicesHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationCancel.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationCancelExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationTransfer.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationTransferExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationInvoiceExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationLineItemHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationInvoiceExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/FeesServicesHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/Reservation_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/DepartureTripLeaderReportPDF.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationCancelExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/UserHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/DepartureClone.page",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/InvoiceEmailPDF.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/DepartureCloneExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/DepartureHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationInvoice.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationFeesServices.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/DepartureHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ContactHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReiaPortalTripPage.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/TripControllerExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/MainPageController.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationInvoiceDispatcher.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/PaymentHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationRooming.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationRoomingExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/triggers/ReservationTrigger.trigger",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/RelatedDeparturesExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/RelatedDepartures.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationRelatedDeparturesExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationRelatedDepartures.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/RelatedDeparturesController.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/DepartureWaitList.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ContactHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/Contact_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/SObjectHelper.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceEmailPDFExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/pages/ReservationInvoicePDFDispatcher.page",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceEmailPDFExtenstionTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceEmailPDFTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/PaymentHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/InvoiceEmailPDFController.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationFeesServicesExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationFeesServicesExtension.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationTransferExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/ReservationLineItemHelperTest.cls",
+		"/C/Users/steve.cook/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/C/mavensmate/workspace/REI-Dev/src/classes/Departure_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Steve/config/.symbols/ContactHelper.json",
+		"/C/mavensmate/workspace/REI-Steve/src/classes/UserHelper.cls",
+		"/C/mavensmate/workspace/REI-Steve/src/classes/ContactHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Steve/src/classes/ReservationFeesServicesExtension.cls",
+		"/C/mavensmate/workspace/REI-Steve/src/classes/ReservationLineItemHelper.cls",
+		"/C/mavensmate/workspace/REI-Steve/src/triggers/ContactTrigger.trigger",
+		"/C/mavensmate/workspace/REI-Steve/src/classes/ReservationLineItem_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Steve/src/triggers/ReservationLineItemTrigger.trigger",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/Reservation.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/UnitTestHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/InvoiceHelperTest.cls-meta.xml",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/InvoiceHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/FeesServicesHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationTransferExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/FeesServicesHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationFeesServicesExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripCancelDepartureExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/C:\\mavensmate\\workspace\\REI-Adventures-Full\\REI-Adventures-Full.sublime-settings",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/RelatedDeparturesExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/Reservation_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/ReservationFeesServices.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationFeesServicesExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/DepartureWaitList.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureWaitListExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureWaitListExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationWaitlistExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/ReservationWaitList.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationTransferExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationLineItemHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/FeesServicesReservationExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/triggers/ReservationTrigger.trigger",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/ReservationTransfer.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/ReservationLineItemHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/TripCancelDeparture.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripCancelDepartureExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureController.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureVendorHelperTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/Trip_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripHelper.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/RelatedDeparturesExtension.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripClass.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/TripClassTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/Departure_TriggerHandler.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureControllerTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureClass.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/DepartureClassTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/pages/DepartureClone.page",
+		"/C/mavensmate/workspace/REI-Adventures-Full/src/classes/RelatedDeparturesExtensionTest.cls-meta.xml",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/UnitTestHelper.cls",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/DepartureClassTest.cls",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/DepartureClass.cls",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/RelatedDeparturesExtension.cls",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/pages/RelatedDepartures.page",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/TriggerFactoryHandlerBaseTest.cls",
+		"/C/mavensmate/workspace/REI-Adeventures-AndyDev/src/classes/RelatedDeparturesExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/RelatedDeparturesExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/RelatedDeparturesExtension.cls-meta.xml",
+		"/C/mavensmate/workspace/REI-Adventures/src/triggers/DepartureTrigger.trigger",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/Departure.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/TripCancelDepartureExtensionTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/TripClass.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/DepartureClass.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/TripClassTest.cls",
+		"/C/mavensmate/workspace/REI-Adventures/src/classes/DepartureTest.cls"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"record_type",
+			"calculatePriority",
+			"priority = ",
+			"vipnotif",
+			"dis",
+			"ArchiveExistingCSATScoreRecords",
+			"VIPCSATSummaryUpdates",
+			"Single",
+			"FindAllDeparturesForTransfer",
+			"ProcessInvoiceChanged",
+			"cancelFee",
+			"role",
+			"Base_Price__c",
+			"booked",
+			"FindAllActiveFeesByDepartureIdsAndType",
+			"FindAllActiveFeesByDepartureId",
+			"FindAllActiveTransferFeesByDepartureId",
+			"FindAllMandatoryByDepartureIds",
+			"ReservationInvoice",
+			"delete invoices",
+			"delete",
+			"Lead_Depatrure__c",
+			"Helper.getRecordTypesByDeveloperName",
+			"firstRun",
+			"addedMandatoryFees",
+			"FindAllFutureDepartures",
+			"cResService",
+			".res",
+			"fee",
+			"void",
+			"ContactHelper.FindById",
+			"InvoiceHelper.FindById",
+			"InvoiceHelper.FindAllByReservationId",
+			"payment",
+			"Invoice",
+			"Future",
+			"InvoiceHelper.",
+			"InvoiceHelper.FindAllByReservationId",
+			"InvoicesForTest",
+			"FindAllByReservationId",
+			"ReservationLineItemsForTest",
+			"Hold_Date__c",
+			"FindAllMandatoryFeesByDepartureIds",
+			"departure",
+			"createFeesServices",
+			"getRecordTypesByDeveloperName",
+			"createFeesServices",
+			"Transfer",
+			"queryDepartures",
+			"FindAllByDeparturesById",
+			"queryDepartures",
+			"TripClass",
+			"DepartureClass",
+			"DepartureClass.",
+			"End_Date__c",
+			"DepartureClass",
+			"        \n",
+			"end_date__c",
+			"departuresWithoutReservations",
+			"</recordtypes>",
+			"<searchlayouts>",
+			"label",
+			"BuildGDSSources",
+			"WARNING",
+			"true",
+			"metro",
+			"PrepareAttachmentLists",
+			"ShowODPairTable",
+			"FindSelectedCase",
+			"PopulateRecordTypeId",
+			"FindSelectedCase",
+			"ShowODPairTable",
+			"this",
+			"!Case.",
+			"}\"",
+			"Calendar_Entry__c",
+			"!Case.",
+			"}\n",
+			"!Case",
+			"mysObject",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"transferFee",
+			"cRes",
+			"res",
+			"fee",
+			"DepartureHelper",
+			"activeDepartures",
+			"ERROR",
+			"!myCase.",
+			"IATA_Payment__c",
+			"!myCase.",
+			"!myCase",
+			"myCase"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/classes/TriggerFactoryHandlerBase.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3404,
+								3404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/classes/TriggerFactoryHandlerBaseTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1186,
+								1186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/TriggerFactory.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3052,
+								3052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/classes/UnitTestHelper.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"project": "Genie - Prod.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 400.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,154 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "TriggerFactory", 
+    "tableDeclaration": {
+        "type": "TriggerFactory", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "TriggerFactory"
+    }, 
+    "key": "01po0000002n6kGAAQ", 
+    "variables": [
+        {
+            "type": "TriggerFactoryHandlerBase", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 11
+            }, 
+            "name": "handler"
+        }, 
+        {
+            "type": "TriggerFactoryHandlerBase", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 59, 
+                "line": 19
+            }, 
+            "name": "handler"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 71, 
+                "line": 84
+            }, 
+            "name": "oldList"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 94, 
+                "line": 84
+            }, 
+            "name": "newList"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 86
+            }, 
+            "name": "sObjectName"
+        }, 
+        {
+            "type": "TriggerFactoryHandlerBase", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 97
+            }, 
+            "name": "handler"
+        }, 
+        {
+            "type": "Type", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 98
+            }, 
+            "name": "t"
+        }
+    ], 
+    "id": "01po0000002n6kGAAQ", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "createHandler", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 8
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "execute", 
+            "parameters": [
+                {
+                    "type": "TriggerFactoryHandlerBase", 
+                    "name": "handler"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 19
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "getHandler", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "oldList"
+                }, 
+                {
+                    "type": "LIST", 
+                    "name": "newList"
+                }
+            ], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 46, 
+                "line": 84
+            }, 
+            "returnType": "TriggerFactoryHandlerBase", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,767 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "m_isExecuting", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 4
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "BatchSize", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 5
+            }, 
+            "type": "Integer"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "IsTriggerContext", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 78
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "IsVisualforcePageContext", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 83
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "IsWebServiceContext", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 88
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "IsExecuteAnonymousContext", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 93
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "firstRun", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 3
+            }, 
+            "type": "Boolean"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "byPassTrigger", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 9
+            }, 
+            "type": "Boolean"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "TriggerFactoryHandlerBase", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 31
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "TriggerFactoryHandlerBase", 
+    "tableDeclaration": {
+        "type": "TriggerFactoryHandlerBase", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 22, 
+            "line": 1
+        }, 
+        "name": "TriggerFactoryHandlerBase"
+    }, 
+    "key": "01po0000002n6fUAAQ", 
+    "variables": [
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 39, 
+                "line": 37
+            }, 
+            "name": "isExecuting"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 60, 
+                "line": 37
+            }, 
+            "name": "size"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 46, 
+                "line": 44
+            }, 
+            "name": "bExecuting"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 44, 
+                "line": 47
+            }, 
+            "name": "bSize"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 54, 
+                "line": 49
+            }, 
+            "name": "newMappings"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 53, 
+                "line": 51
+            }, 
+            "name": "newMappings"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 54, 
+                "line": 56
+            }, 
+            "name": "oldMappings"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 81, 
+                "line": 56
+            }, 
+            "name": "updatedMappings"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 115, 
+                "line": 56
+            }, 
+            "name": "mappingOldMap"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 147, 
+                "line": 56
+            }, 
+            "name": "mappingNewMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 53, 
+                "line": 58
+            }, 
+            "name": "oldMappings"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 80, 
+                "line": 58
+            }, 
+            "name": "updatedMappings"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 114, 
+                "line": 58
+            }, 
+            "name": "mappingOldMap"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 146, 
+                "line": 58
+            }, 
+            "name": "mappingMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 54, 
+                "line": 63
+            }, 
+            "name": "MappingsToDelete"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 89, 
+                "line": 63
+            }, 
+            "name": "MappingMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 65
+            }, 
+            "name": "deletedMappings"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 79, 
+                "line": 65
+            }, 
+            "name": "MappingMap"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 70
+            }, 
+            "name": "restoredMappings"
+        }, 
+        {
+            "type": "Boolean", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 48, 
+                "line": 27
+            }, 
+            "name": "value"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 51, 
+                "line": 54
+            }, 
+            "name": "newMappingIDs"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 51, 
+                "line": 61
+            }, 
+            "name": "updatedMappingIDs"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 51, 
+                "line": 68
+            }, 
+            "name": "deletedMappingIDs"
+        }
+    ], 
+    "id": "01po0000002n6fUAAQ", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "setParameters", 
+            "parameters": [
+                {
+                    "type": "Boolean", 
+                    "name": "isExecuting"
+                }, 
+                {
+                    "type": "Integer", 
+                    "name": "size"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 37
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "GetIsExecuting", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 43
+            }, 
+            "returnType": "Boolean", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "SetIsExecuting", 
+            "parameters": [
+                {
+                    "type": "Boolean", 
+                    "name": "bExecuting"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 44
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "GetBatchSize", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 46
+            }, 
+            "returnType": "Integer", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "SetBatchSize", 
+            "parameters": [
+                {
+                    "type": "Integer", 
+                    "name": "bSize"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 47
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnBeforeInsert", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newMappings"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 49
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnAfterInsert", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "newMappings"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 51
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnBeforeUpdate", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "oldMappings"
+                }, 
+                {
+                    "type": "LIST", 
+                    "name": "updatedMappings"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "mappingOldMap"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "mappingNewMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 56
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnAfterUpdate", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "oldMappings"
+                }, 
+                {
+                    "type": "LIST", 
+                    "name": "updatedMappings"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "mappingOldMap"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "mappingMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 58
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnBeforeDelete", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "MappingsToDelete"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "MappingMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 63
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnAfterDelete", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "deletedMappings"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "MappingMap"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 17, 
+                "line": 65
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "OnUndelete", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "restoredMappings"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 70
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "BulkBefore", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 72
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "BulkAfter", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 74
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "cleanUp", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 76
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "getByPassTriggerContext", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 12
+            }, 
+            "returnType": "Boolean", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "setByPassTriggerFalse", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 17
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "setByPassTriggerTrue", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 22
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "setByPassTrigger", 
+            "parameters": [
+                {
+                    "type": "Boolean", 
+                    "name": "value"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 27
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "OnAfterInsertAsync", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "newMappingIDs"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 54
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "OnAfterUpdateAsync", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "updatedMappingIDs"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 61
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "OnAfterDeleteAsync", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "deletedMappingIDs"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 68
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

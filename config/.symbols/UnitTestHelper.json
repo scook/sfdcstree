@@ -1,0 +1,86 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "incrementCounter", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 7
+            }, 
+            "type": "Integer"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "UnitTestHelper", 
+    "tableDeclaration": {
+        "type": "UnitTestHelper", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 5
+        }, 
+        "name": "UnitTestHelper"
+    }, 
+    "key": "01po0000002n6kQAAQ", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 50, 
+                "line": 14
+            }, 
+            "name": "name"
+        }
+    ], 
+    "id": "01po0000002n6kQAAQ", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "getIncrement", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 9
+            }, 
+            "returnType": "Integer", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "generateUniqueName", 
+            "parameters": [
+                {
+                    "type": "String", 
+                    "name": "name"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 14
+            }, 
+            "returnType": "String", 
+            "type": null
+        }
+    ]
+}
