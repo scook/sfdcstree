@@ -3191,6 +3191,71 @@
             }, 
             {
                 "leaf": false, 
+                "title": "Ship_To_Location__c", 
+                "checked": false, 
+                "id": "CustomObject.Ship_To_Location__c", 
+                "text": "Ship_To_Location__c", 
+                "level": 2, 
+                "isFolder": true, 
+                "children": [
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Ship_To_Location__c.fields", 
+                        "text": "fields", 
+                        "title": "fields", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Account__c", 
+                                "title": "Account__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Ship_To_Location__c.fields.Account__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Shipping_Address_1__c", 
+                                "title": "Shipping_Address_1__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Ship_To_Location__c.fields.Shipping_Address_1__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Shipping_Address_2__c", 
+                                "title": "Shipping_Address_2__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Ship_To_Location__c.fields.Shipping_Address_2__c", 
+                                "select": false
+                            }, 
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "Shipping_Address_3__c", 
+                                "title": "Shipping_Address_3__c", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Ship_To_Location__c.fields.Shipping_Address_3__c", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }
+                ], 
+                "select": false, 
+                "cls": "folder"
+            }, 
+            {
+                "leaf": false, 
                 "title": "Site", 
                 "checked": false, 
                 "id": "CustomObject.Site", 
