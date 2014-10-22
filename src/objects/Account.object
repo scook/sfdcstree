@@ -508,6 +508,43 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>West</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Regional_VP_of_Sales__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Regional VP of Sales</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Regional_Accounts</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Site_Visit_Notes__c</fullName>
         <description>Notes field for site visits</description>
         <externalId>false</externalId>
@@ -989,6 +1026,25 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Tier__c</picklist>
             <values>
                 <fullName>Tier 1</fullName>
@@ -1295,6 +1351,25 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Tier__c</picklist>
             <values>
                 <fullName>Tier 1</fullName>
@@ -1597,6 +1672,25 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

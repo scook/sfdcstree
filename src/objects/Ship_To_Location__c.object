@@ -121,10 +121,9 @@
     </fields>
     <label>Ship To Location</label>
     <nameField>
-        <displayFormat>SHIP-{0000000}</displayFormat>
-        <label>Ship To Number</label>
+        <label>Ship To Name</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Ship To Locations</pluralLabel>
     <searchLayouts/>
