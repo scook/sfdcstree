@@ -877,6 +877,17 @@
         <errorMessage>The Close Date Earliest cannot be before today&apos;s date.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>CloseDateEarliestNotAfterLikelyOrLatest</fullName>
+        <active>true</active>
+        <description>Ensure the close date Earliest is not later than the close date likely or latest</description>
+        <errorConditionFormula>NOT(ISBLANK(Close_Date_Earliest__c)) &amp;&amp;
+((NOT(ISBLANK(Close_Date_Most_Likely__c)) &amp;&amp;
+  Close_Date_Earliest__c &gt; Close_Date_Most_Likely__c) ||
+((NOT(ISBLANK(Close_Date_Latest__c)) &amp;&amp;
+  Close_Date_Earliest__c &gt; Close_Date_Latest__c)))</errorConditionFormula>
+        <errorMessage>The Close Date (Earliest) cannot be more than the Close Date (Likely) or Close Date (Latest)</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>CloseDateLatestBeforeToday</fullName>
         <active>true</active>
         <description>Ensure the Close Date Latest is not before today</description>
@@ -901,6 +912,18 @@
         <errorMessage>The Close Date Medium cannot be before today&apos;s date.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>DollarEstimateLowLessLikelyHigh</fullName>
+        <active>true</active>
+        <description>Ensure the dollar estimate low is less than the likely and high</description>
+        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Low__c)) &amp;&amp;
+((NOT(ISBLANK(Dollar_Estimate_Most_Likely__c)) &amp;&amp;
+  Dollar_Estimate_Low__c &gt; Dollar_Estimate_Most_Likely__c) ||
+((NOT(ISBLANK(Dollar_Estimate_High__c)) &amp;&amp;
+  Dollar_Estimate_Low__c &gt; Dollar_Estimate_High__c)))</errorConditionFormula>
+        <errorDisplayField>Dollar_Estimate_Low__c</errorDisplayField>
+        <errorMessage>The Dollar Estimate (Low) cannot be more than the Dollar Estimate (Most Likely) or Dollar Estimate (High)</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Dollar_Estimate_High_Less_Than_Zero</fullName>
         <active>true</active>
         <description>Ensure the dollar estimate high is not less than 0</description>
@@ -908,18 +931,6 @@
   Dollar_Estimate_High__c &lt; 0</errorConditionFormula>
         <errorDisplayField>Dollar_Estimate_High__c</errorDisplayField>
         <errorMessage>The Dollar Estimate (High) cannot be less than 0.</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>Dollar_Estimate_Low_Less_Med_and_High</fullName>
-        <active>true</active>
-        <description>Ensure the dollar estimate low is less than the medium and high</description>
-        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Low__c)) &amp;&amp;
-((NOT(ISBLANK(Dollar_Estimate_Most_Likely__c)) &amp;&amp;
-  Dollar_Estimate_Low__c &gt; Dollar_Estimate_Most_Likely__c) ||
-((NOT(ISBLANK(Dollar_Estimate_High__c)) &amp;&amp;
-  Dollar_Estimate_Low__c &gt; Dollar_Estimate_High__c)))</errorConditionFormula>
-        <errorDisplayField>Dollar_Estimate_Low__c</errorDisplayField>
-        <errorMessage>The Dollar Estimate (Low) cannot be more than the Dollar Estimate (Medium) or Dollar Estimate (High)</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Dollar_Estimate_Low_Less_Than_Zero</fullName>
