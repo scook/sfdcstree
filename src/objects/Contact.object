@@ -102,10 +102,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Birthdate_Month_Year__c</fullName>
+        <fullName>Birthdate_Month_Day__c</fullName>
         <externalId>false</externalId>
-        <formula>TEXT(Month(Birthdate)) + &apos;/&apos; + TEXT(Year(Birthdate))</formula>
-        <label>Birthdate (Month/Year)</label>
+        <formula>TEXT(Month(Birthdate)) + &apos;/&apos; + TEXT(Day(Birthdate))</formula>
+        <label>Birthdate (Month/Day)</label>
         <required>false</required>
         <type>Text</type>
         <unique>false</unique>

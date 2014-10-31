@@ -104,11 +104,31 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Send Letter</fullName>
+                <fullName>Send Quote</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Send Quote</fullName>
+                <fullName>Drop off Genie paraphernalia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Drop off Genie literature</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Offer to buy lunch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Talk to the Front of the House</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Talk to the Back of the House</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Send Letter</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>

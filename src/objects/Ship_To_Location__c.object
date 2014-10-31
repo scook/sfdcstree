@@ -46,6 +46,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Prototype of moving ship to into custom object.  Could also be leveraged for Bill to</description>
     <enableActivities>true</enableActivities>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>

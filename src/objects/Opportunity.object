@@ -44,6 +44,43 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>AWP Opportunity Process</fullName>
+        <description>AWP Opportunity Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fact Finding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Prop</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
@@ -55,10 +92,114 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Back_of_the_House__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you talked to the back of the house</inlineHelpText>
+        <label>Back of the House</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Brands__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>These are the brands that the prospect is currently using or has brand affinity with.</inlineHelpText>
+        <label>Brands</label>
+        <picklist>
+            <picklistValues>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dingli</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gehl</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gradall</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Haulotte</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hy-Brid Lifts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manitou</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NiftyLift</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Snorkel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date_Earliest__c</fullName>
+        <description>Earliest Expected Close Date</description>
+        <externalId>false</externalId>
+        <label>Close Date (Earliest)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date_Latest__c</fullName>
+        <description>Latest the opportunity is expected to close</description>
+        <externalId>false</externalId>
+        <label>Close Date (Latest)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date_Most_Likely__c</fullName>
+        <description>Expected Close Date of opportunity</description>
+        <externalId>false</externalId>
+        <label>Close Date (Most Likely)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>ContractId</fullName>
@@ -91,9 +232,9 @@
         <type>Currency</type>
     </fields>
     <fields>
-        <fullName>Dollar_Estimate_Medium__c</fullName>
+        <fullName>Dollar_Estimate_Most_Likely__c</fullName>
         <externalId>false</externalId>
-        <label>Dollar Estimate (Medium)</label>
+        <label>Dollar Estimate (Most Likely)</label>
         <precision>18</precision>
         <required>false</required>
         <scale>2</scale>
@@ -113,6 +254,16 @@
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Front_of_the_House__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you talked to the Front of the House</inlineHelpText>
+        <label>Front of the House</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>LeadSource</fullName>
@@ -168,10 +319,116 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Lines__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>These are the types of equipment that prospect rents that Genie makes.</inlineHelpText>
+        <label>Lines Rented</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Aerial Work Platforms</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Light Towers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Material Handling Equipment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telehandlers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Literature__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you dropped off Genie literature.</inlineHelpText>
+        <label>Literature</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Merchandise__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box if you have  dropped off Genie merchandise</inlineHelpText>
+        <label>Merchandise</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Painpoint_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Painpoint Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Painpoints__c</fullName>
+        <externalId>false</externalId>
+        <label>Painpoints</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brand</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Timeframe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ROIC__c</fullName>
+        <externalId>false</externalId>
+        <label>ROIC</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_Plan_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Plan Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Ship_To_Location__c</fullName>
@@ -189,6 +446,54 @@
     <fields>
         <fullName>StageName</fullName>
         <picklist>
+            <picklistValues>
+                <fullName>Fact Finding</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>10</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Value Prop</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>30</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quote</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>60</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Order</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>90</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Schedule</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>100</probability>
+                <won>false</won>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Build</fullName>
+                <closed>false</closed>
+                <default>false</default>
+                <forecastCategory>Pipeline</forecastCategory>
+                <probability>100</probability>
+                <won>false</won>
+            </picklistValues>
             <picklistValues>
                 <fullName>Prospecting</fullName>
                 <closed>false</closed>
@@ -285,11 +590,11 @@
         <fullName>Type</fullName>
         <picklist>
             <picklistValues>
-                <fullName>Existing Business</fullName>
+                <fullName>Trade</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>New Business</fullName>
+                <fullName>Financing</fullName>
                 <default>false</default>
             </picklistValues>
             <sorted>false</sorted>
@@ -297,6 +602,16 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Why_Those_Brands__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Why is this prospect currently carrying these brands?</inlineHelpText>
+        <label>Why Those Brands</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
@@ -363,6 +678,175 @@
         </filters>
         <label>Won</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>AWP_Opportunity_Process</fullName>
+        <active>true</active>
+        <businessProcess>AWP Opportunity Process</businessProcess>
+        <label>AWP Opportunity Process</label>
+        <picklistValues>
+            <picklist>Brands__c</picklist>
+            <values>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dingli</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gehl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gradall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Haulotte</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hy-Brid Lifts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manitou</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NiftyLift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snorkel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ForecastCategoryName</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pipeline</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar - Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Word of mouth</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lines__c</picklist>
+            <values>
+                <fullName>Aerial Work Platforms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Light Towers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Material Handling Equipment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehandlers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Painpoints__c</picklist>
+            <values>
+                <fullName>Brand</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timeframe</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Financing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
@@ -385,6 +869,38 @@
     </searchLayouts>
     <sharingModel>Read</sharingModel>
     <validationRules>
+        <fullName>CloseDateEarliestBeforeToday</fullName>
+        <active>true</active>
+        <description>Ensure the Close Date Earliest is not before today</description>
+        <errorConditionFormula>NOT(ISBLANK(Close_Date_Earliest__c)) &amp;&amp;
+  Close_Date_Earliest__c &lt; TODAY()</errorConditionFormula>
+        <errorMessage>The Close Date Earliest cannot be before today&apos;s date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CloseDateLatestBeforeToday</fullName>
+        <active>true</active>
+        <description>Ensure the Close Date Latest is not before today</description>
+        <errorConditionFormula>NOT(ISBLANK(Close_Date_Latest__c)) &amp;&amp;
+  Close_Date_Latest__c &lt; TODAY()</errorConditionFormula>
+        <errorMessage>The Close Date Latest cannot be before today&apos;s date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CloseDateMediumBeforeLatest</fullName>
+        <active>true</active>
+        <description>Ensure that the Close Date Medium is not Before the Close Date latest</description>
+        <errorConditionFormula>NOT(ISBLANK(Close_Date_Most_Likely__c)) &amp;&amp;
+ (NOT(ISBLANK(Close_Date_Latest__c)))</errorConditionFormula>
+        <errorMessage>The Close Date (Medium) cannot be later than Close Date (Latest)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>CloseDateMediumBeforeToday</fullName>
+        <active>true</active>
+        <description>Ensure the Close Date Medium is not before today</description>
+        <errorConditionFormula>NOT(ISBLANK(Close_Date_Most_Likely__c)) &amp;&amp;
+  Close_Date_Most_Likely__c &lt; TODAY()</errorConditionFormula>
+        <errorMessage>The Close Date Medium cannot be before today&apos;s date.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>Dollar_Estimate_High_Less_Than_Zero</fullName>
         <active>true</active>
         <description>Ensure the dollar estimate high is not less than 0</description>
@@ -398,8 +914,8 @@
         <active>true</active>
         <description>Ensure the dollar estimate low is less than the medium and high</description>
         <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Low__c)) &amp;&amp;
-((NOT(ISBLANK(Dollar_Estimate_Medium__c)) &amp;&amp;
-  Dollar_Estimate_Low__c &gt; Dollar_Estimate_Medium__c) ||
+((NOT(ISBLANK(Dollar_Estimate_Most_Likely__c)) &amp;&amp;
+  Dollar_Estimate_Low__c &gt; Dollar_Estimate_Most_Likely__c) ||
 ((NOT(ISBLANK(Dollar_Estimate_High__c)) &amp;&amp;
   Dollar_Estimate_Low__c &gt; Dollar_Estimate_High__c)))</errorConditionFormula>
         <errorDisplayField>Dollar_Estimate_Low__c</errorDisplayField>
@@ -418,19 +934,19 @@
         <fullName>Dollar_Estimate_Med_Less_Than_Zero</fullName>
         <active>true</active>
         <description>Ensure the dollar estimate medium is not less than 0</description>
-        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Medium__c)) &amp;&amp;
-  Dollar_Estimate_Medium__c &lt; 0</errorConditionFormula>
-        <errorDisplayField>Dollar_Estimate_Medium__c</errorDisplayField>
+        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Most_Likely__c)) &amp;&amp;
+  Dollar_Estimate_Most_Likely__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>Dollar_Estimate_Most_Likely__c</errorDisplayField>
         <errorMessage>The Dollar Estimate (Medium) cannot be less than 0.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Dollar_Estimate_Med_More_High</fullName>
         <active>true</active>
         <description>Ensure the dollar estimate medium is less than high</description>
-        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Medium__c)) &amp;&amp;
+        <errorConditionFormula>NOT(ISBLANK(Dollar_Estimate_Most_Likely__c)) &amp;&amp;
 ((NOT(ISBLANK(Dollar_Estimate_High__c)) &amp;&amp;
-  Dollar_Estimate_Medium__c &gt; Dollar_Estimate_High__c))</errorConditionFormula>
-        <errorDisplayField>Dollar_Estimate_Medium__c</errorDisplayField>
+  Dollar_Estimate_Most_Likely__c &gt; Dollar_Estimate_High__c))</errorConditionFormula>
+        <errorDisplayField>Dollar_Estimate_Most_Likely__c</errorDisplayField>
         <errorMessage>The Dollar Estimate (Medium) cannot be more than the Dollar Estimate (High)</errorMessage>
     </validationRules>
 </CustomObject>
