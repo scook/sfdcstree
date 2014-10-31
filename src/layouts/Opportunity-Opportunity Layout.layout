@@ -129,6 +129,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Why_Those_Brands__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Lines__c</field>
             </layoutItems>
         </layoutColumns>
@@ -164,10 +168,6 @@
                 <behavior>Edit</behavior>
                 <field>Relationship_Plan_Notes__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Why_Those_Brands__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -175,7 +175,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Lead Info</label>
+        <label>Lead Qualifying</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>

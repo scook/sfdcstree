@@ -102,14 +102,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Brand_New_Lead__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Brand New Lead</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>CampaignId</fullName>
         <type>Lookup</type>
     </fields>

@@ -66,10 +66,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Brand_New_Lead__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>LeadSource</field>
             </layoutItems>
         </layoutColumns>

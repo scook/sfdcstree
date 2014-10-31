@@ -147,6 +147,10 @@
                 <fullName>Snorkel</fullName>
                 <default>false</default>
             </picklistValues>
+            <picklistValues>
+                <fullName>Genie</fullName>
+                <default>false</default>
+            </picklistValues>
             <sorted>false</sorted>
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
@@ -157,6 +161,7 @@
     <fields>
         <fullName>Budget__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Budget only applies to this Opportunity not the years budget for the entire Account</inlineHelpText>
         <label>Budget</label>
         <precision>18</precision>
         <required>false</required>
@@ -696,6 +701,10 @@
             </values>
             <values>
                 <fullName>Gehl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Genie</fullName>
                 <default>false</default>
             </values>
             <values>

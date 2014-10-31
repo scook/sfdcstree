@@ -49,11 +49,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.Brand_New_Lead__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.Collector__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -820,11 +815,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.Back_of_the_House__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.Brand_New_Lead__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
