@@ -360,6 +360,32 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Product_Line__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Boom</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Scissor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telehandler</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Aluminium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
         <fullName>Rating</fullName>
         <picklist>
             <picklistValues>
@@ -378,6 +404,43 @@
         </picklist>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <label>Region</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>West</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Regional_VP_of_Sales__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Regional VP of Sales</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Leads1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
@@ -728,6 +791,25 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Product_Line__c</picklist>
+            <values>
+                <fullName>Aluminium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scissor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehandler</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Rating</picklist>
             <values>
                 <fullName>Cold</fullName>
@@ -739,6 +821,25 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -950,6 +1051,25 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Product_Line__c</picklist>
+            <values>
+                <fullName>Aluminium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Boom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scissor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehandler</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Rating</picklist>
             <values>
                 <fullName>Cold</fullName>
@@ -961,6 +1081,25 @@
             </values>
             <values>
                 <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Region__c</picklist>
+            <values>
+                <fullName>Central</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

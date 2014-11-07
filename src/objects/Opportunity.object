@@ -108,7 +108,31 @@
         <label>Brands</label>
         <picklist>
             <picklistValues>
+                <fullName>Aichi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Alimak Hek</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Altec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ATN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bronto</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>CAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>CTE</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
@@ -116,7 +140,23 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
+                <fullName>Dinolift</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Geda</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>Gehl</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Genie</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GJJ</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
@@ -128,7 +168,19 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
+                <fullName>Holland Lift</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>Hy-Brid Lifts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Isoli</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>JLG</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
@@ -136,7 +188,19 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
+                <fullName>Mantall</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>Mec</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Multitel Pagliero</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nifty</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
@@ -144,11 +208,47 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
+                <fullName>Oil &amp; Steel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Palfinger</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ruthmann</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Scanclimber</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sinoboom</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SkyJack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>Snorkel</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Genie</fullName>
+                <fullName>Socage</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tadano</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Teupen</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Time</fullName>
                 <default>false</default>
             </picklistValues>
             <sorted>false</sorted>
@@ -393,11 +493,23 @@
         <label>Painpoints</label>
         <picklist>
             <picklistValues>
+                <fullName>Brand</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
                 <fullName>Price</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Brand</fullName>
+                <fullName>Quality</fullName>
                 <default>false</default>
             </picklistValues>
             <picklistValues>
@@ -405,7 +517,7 @@
                 <default>false</default>
             </picklistValues>
             <picklistValues>
-                <fullName>Other</fullName>
+                <fullName>Warranty</fullName>
                 <default>false</default>
             </picklistValues>
             <sorted>false</sorted>
@@ -692,11 +804,47 @@
         <picklistValues>
             <picklist>Brands__c</picklist>
             <values>
+                <fullName>ATN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aichi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alimak Hek</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Altec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bronto</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>CAT</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>CTE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Dingli</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dinolift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GJJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geda</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -716,7 +864,19 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Holland Lift</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Hy-Brid Lifts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Isoli</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JLG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -724,7 +884,19 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Mantall</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Mec</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Multitel Pagliero</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nifty</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -732,7 +904,47 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Oil %26 Steel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Palfinger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ruthmann</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scanclimber</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sinoboom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SkyJack</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Snorkel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Socage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tadano</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Teupen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Time</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -832,6 +1044,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
@@ -840,7 +1056,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Timeframe</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warranty</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
